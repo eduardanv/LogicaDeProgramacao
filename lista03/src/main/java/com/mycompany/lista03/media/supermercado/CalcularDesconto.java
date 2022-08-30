@@ -19,8 +19,12 @@ public class CalcularDesconto {
         }
     }
         
-        Double exibirNotaFiscal(Double valorComDesconto){
+        void exibirNotaFiscal(Double desconto, Double valor, Integer quantidade){
             
-            
+            System.out.println("-".repeat(25));
+            System.out.println("Valor do Produto: R$" + valor);
+            System.out.println("Quantidade: " + quantidade);
+            System.out.println("-".repeat(30));
+             System.out.println("Valor com Desconto:R$ " + desconto);
         }
 }

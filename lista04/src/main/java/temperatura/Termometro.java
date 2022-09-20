@@ -46,10 +46,10 @@ public class Termometro {
         
         if(temperatura > tempMax){
             tempMax = temperatura;
-            System.out.printf("Temperatura Max em Cº: %.2f \n", temperaturaAtual);
+            System.out.printf("Temperatura Max em Cº: %.2f \n", tempMax);
         }else{
             
-            System.out.printf("Temperatura Max em Cº: %.2f \n", temperaturaAtual);
+            System.out.printf("Temperatura Max em Cº: %.2f \n", tempMax);
         }
         
     }
@@ -62,14 +62,14 @@ public class Termometro {
         if(temperatura < tempMin){
             tempMin = temperatura;
             
-        System.out.printf("Temperatura Min em Cº: %.2f \n", temperaturaAtual);
+        System.out.printf("Temperatura Min em Cº: %.2f \n", tempMin);
         }else{
-        System.out.printf("Temperatura Min em Cº: %.2f \n", temperaturaAtual);
+        System.out.printf("Temperatura Min em Cº: %.2f \n", tempMin);
         }
          
     }
     
-    public void exibeFahreinheit(Double fahreinheit){
+    public void exibeFahreinheit(Double calcular){
         Double temperatura = getTemperaturaAtual();
         Double temperaturaFahreinheit = (temperatura * 1.8) + 32;
         

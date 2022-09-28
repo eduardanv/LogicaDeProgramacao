@@ -2,22 +2,22 @@ package school.sptech.desafio.mariaeduarda.neves.poo;
 
 public class RecursosHumanos {
 
-  
+    private Integer quantidadePromovidos;
+    private Integer quantidadeReajustes;
 
-
-    private Integer quantidadePromovidos = 0;
-    private Integer quantidadeReajustes = 0;
-
-    Colaborador colaborador1 = new Colaborador("João", "Auxiliar Administrativo", 1_254.0);
-
-    public RecursosHumanos(String nome,String cargo, Double salario) {
-        colaborador1.getNome();
-        colaborador1.getCargo();
-        colaborador1.getSalario();
+    public RecursosHumanos() {
+        quantidadePromovidos = 0;
+        quantidadeReajustes = 0;
     }
 
-    
-    
+    public Integer getQuantidadePromovidos() {
+        return quantidadePromovidos;
+    }
+
+    public Integer getQuantidadeReajustes() {
+        return quantidadeReajustes;
+    }
+
     public void setQuantidadePromovidos(Integer quantidadePromovidos) {
         this.quantidadePromovidos = quantidadePromovidos;
     }
@@ -26,39 +26,33 @@ public class RecursosHumanos {
         this.quantidadeReajustes = quantidadeReajustes;
     }
 
-    public Integer reajustarSalario(String colaborador, Double porcentagem){
-        if(colaborador.equals("") || porcentagem == null){
-            return null;
+    public void reajustarSalario(Colaborador colaborador, Double porcentagem) {
+        if (colaborador != null && porcentagem != null) {
+            if (porcentagem > 0) {
+                Double salarioReajuste = colaborador.getSalario() + ((colaborador.getSalario() / 100) * porcentagem);
+                System.out.println("Reajuste realizado com sucesso! Novo salário: " + salarioReajuste);
+                colaborador.setSalario(salarioReajuste);
+                quantidadeReajustes++;
+                System.out.println("Quantidade de reajustes: " + quantidadeReajustes);
+            }
         }
-        else{
-            Double salarioReajuste = colaborador1.getSalario() + (colaborador1.getSalario() * porcentagem);
-            System.out.println("Reajuste realizado com sucesso! Novo salário: " + salarioReajuste);
-            quantidadeReajustes++;
-            System.out.println("Quantidade de reajustes: ");
-            return quantidadeReajustes;
-        }
+
     }
 
-    public Integer promoverColaborador(String colaborador, String novoCargo, Double novoSalario) {
-        if(colaborador.equals("") || novoCargo.equals("") || novoSalario == null){
-           return null;
-        }
-        else{
-            
-            if(novoSalario > colaborador1.getSalario()){
-                colaborador1.setSalario(novoSalario);
-                colaborador1.getNome();
-                colaborador1.setCargo(novoCargo);
+    public void promoverColaborador(Colaborador colaborador, String novoCargo, Double novoSalario) {
+        if (colaborador != null && novoCargo != null && novoSalario != null) {
+
+            if (novoSalario > colaborador.getSalario()) {
+                colaborador.setSalario(novoSalario);
+                colaborador.getNome();
+                colaborador.setCargo(novoCargo);
                 quantidadePromovidos++;
-                System.out.println("Quantidade de funcionários promovidos: ");
+                System.out.println("Quantidade de funcionários promovidos: " + quantidadePromovidos);
+
+            } else {
+                System.out.println("O novo salário deve ser maior que o anterior.");
             }
-            else{
-                return null;
-            }
-            
-            
-            
-            return quantidadePromovidos;
         }
+
     }
 }

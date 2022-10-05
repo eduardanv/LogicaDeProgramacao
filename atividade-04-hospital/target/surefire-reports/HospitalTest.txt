@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: HospitalTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 24, Skipped: 0, Time elapsed: 0.063 s <<< FAILURE! - in HospitalTest
+realizarPagamentoMedicoNuloSemExcecao  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoMedicoNulo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoMedicoInativo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+construtorHospital  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoHoraExtraMedicoNulo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+classeHospitalGettersESetters  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoValorValido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+classeMedicoAtributosPrivados  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoHoraExtraValorInvalido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+desligarMedicoInvalido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoHoraExtraNull  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoHoraExtraNegativa  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoHoraExtraMedicoNuloSemExcecao  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+construtorMedico  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoHoraExtraValorValido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+classeHospitalAtributosPrivados  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoValorInvalido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoValorNulo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoHoraExtraMedicoInativo  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+classeMedicoMetodosPublicos  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+classeMedicoGettersESetters  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+classeHospitalaMetodosPublicos  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+desligarMedicoValido  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+
+realizarPagamentoValorNuloSemExcecao  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Uncompilable source code - Erroneous ctor sym type: com.sptech.atividade.com.testes.Hospital.<init>
+	at HospitalTest.init(HospitalTest.java:27)
+

@@ -1,0 +1,6 @@
+2022-10-05 10:58:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILME" not found; SQL statement:
+SELECT * FROM filme; [42102-199]
+2022-10-05 11:01:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILME" not found; SQL statement:
+SELECT * FROM filme; [42102-199]

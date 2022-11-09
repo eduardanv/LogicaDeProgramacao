@@ -5,9 +5,6 @@ import java.util.List;
 
 public class Consultoria {
 
-    public Integer getVagas() {
-        return vagas;
-    }
 
     private String nome;
     private Integer vagas;
@@ -17,6 +14,10 @@ public class Consultoria {
         this.nome = nome;
         this.vagas = vagas;
         this.desenvolvedores = new ArrayList();
+    }
+     
+       public Integer getVagas() {
+        return vagas;
     }
 
     public Boolean existePorNome(String nome) {

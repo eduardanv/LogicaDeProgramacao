@@ -14,9 +14,9 @@ public class DesenvolvedorMobile extends Desenvolvedor {
     
         @Override
         public Double getSalario(){
-           Double salarioDevMobile = super.getSalario() + salario;
-           
-           return salarioDevMobile;
+            
+           return super.getSalario() +(valorHoraTrabalhada * qtdHoraTrabalhada);
+   
         }
         
         @Override
@@ -25,10 +25,10 @@ public class DesenvolvedorMobile extends Desenvolvedor {
         StringBuilder sb = new StringBuilder();
         
         sb.append("\n").append("Nome:").append(getNome()).append("\n");
-        sb.append("\n").append("Horas trabalhadas: ").append(getQtdHorasTrabalhadas()).append("\n");
-        sb.append("\n").append("Valor horas trabalhadas: ").append(getValorHoraTrabalhada()).append("\n");
-        sb.append("\n").append("Salário: R$ ").append(this.getSalario()).append("\n");
- 
+        sb.append("\n").append("Horas trabalhadas: ").append(getQtdHorasTrabalhadas() + this.qtdHoraTrabalhada).append("\n");
+        sb.append("\n").append("Valor horas trabalhadas: ").append(getValorHoraTrabalhada() + this.valorHoraTrabalhada).append("\n");
+        sb.append("\n").append("Salário: R$ ").append(getSalario()).append("\n");
+        
         return sb.toString();
     }
 }
